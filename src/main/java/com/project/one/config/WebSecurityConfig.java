@@ -13,8 +13,8 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.project.one.security.utils.JwtAuthenticationEntryPoint;
-import com.project.one.security.utils.JwtFilter;
+import com.project.one.security.JwtAuthenticationEntryPoint;
+import com.project.one.security.JwtFilter;
 
 @Configuration
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {

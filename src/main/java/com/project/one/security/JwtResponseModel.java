@@ -1,4 +1,4 @@
-package com.project.one.security.utils.models;
+package com.project.one.security;
 
 import java.io.Serializable; 
 public class JwtResponseModel implements Serializable {

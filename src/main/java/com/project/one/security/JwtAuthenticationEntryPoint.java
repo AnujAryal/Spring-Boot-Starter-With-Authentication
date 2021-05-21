@@ -1,4 +1,4 @@
-package com.project.one.security.utils;
+package com.project.one.security;
 
 import java.io.IOException;
 import java.io.Serializable;

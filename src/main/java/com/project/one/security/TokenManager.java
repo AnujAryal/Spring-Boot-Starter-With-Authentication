@@ -1,13 +1,15 @@
-package com.project.one.security.utils;
+package com.project.one.security;
 
-import java.io.Serializable; 
-import java.util.Date; 
-import java.util.HashMap; 
-import java.util.Map; 
-import org.springframework.beans.factory.annotation.Value; 
-import org.springframework.security.core.userdetails.UserDetails; 
-import org.springframework.stereotype.Component; 
-import io.jsonwebtoken.Claims; import io.jsonwebtoken.Jwts; 
+import java.io.Serializable;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.stereotype.Component;
+
+import io.jsonwebtoken.Claims;
+import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm; 
 @Component 
 public class TokenManager implements Serializable {
